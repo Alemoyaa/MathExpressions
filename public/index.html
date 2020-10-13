@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Challenge Slingr.io</title>
+  <meta name="description" content="Challenge made to enter Slingr.io">
+  <meta name="author" content="Alejandro Moya">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <div class="container">
+    <h3 style="margin-top: 10%">Challenge Slingr.io</h3>
+    <div class="row">
+      <div class="one-half column" style="margin-top: 5%">
+        <h5>This page is a guide to use the api</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="four columns">
+        GET
+      </div>
+      <div class="eight columns">
+        https://challenge-slingr-io.herokuapp.com/api/math/"expressionMath"/"precision"        
+      </div>
+    </div>
+    <div class="row" style="margin-top: 5%">
+      <div class="four columns">
+        POST
+      </div>
+      <div class="eight columns">
+        https://challenge-slingr-io.herokuapp.com/api/math/   
+        <label>body:</label>
+        <p>
+          { 
+            "expression": "2+3*sqrt(4)",
+            "precision": 15
+          }
+        </p>     
+      </div>
+    </div>
+
+    <h5>For this api I used the next libraries</h5> 
+    <div class="row docs-example">
+      <div class="six columns">
+        <ul>
+          <li><a href="https://expressjs.com/es/">Express</a></li>
+          <li><a href="https://mathjs.org/">Mathjs</a></li>
+          <li><a href="http://getskeleton.com/">Skeleton</a></li>
+        </ul>
+      </div>
+    </div>
+    <h5>The deployment is done with <a href="https://www.heroku.com/">heroku</a></h5>
+  </div>
+
+</body>
+</html>
