@@ -3,6 +3,7 @@
 _Challenge made to enter Slingr.io_
 
 ## Routes
+* (GET) https://challenge-slingr-io.herokuapp.com/" [HTML Main]
 
 * (GET) https://challenge-slingr-io.herokuapp.com/api/math/"expressionMath"/"precision"
 
